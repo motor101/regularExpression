@@ -32,17 +32,17 @@ Basic symbols:
 \ is the initial symbol of a special string
 
 Example:
-\>RegExSearch.exe MyFile.txt a*
+RegExSearch.exe MyFile.txt a*
 MyFile.txt:5:aaaaaaa
 MyFile.txt:11:aa
 MyFile.txt:21:aaaaaaaaaaa
 
-\>RegExSearch.exe MyFile.txt a*|b*
+RegExSearch.exe MyFile.txt a*|b*
 MyFile.txt:5:aaaaa
 MyFile.txt:13:bbb
 MyFile.txt:32:bbbbbbbb
 
-\>RegExSearch.exe MyFile.txt \a.\d*|a*\e\a*
+RegExSearch.exe MyFile.txt \a.\d*|a*\e\a*
 MyFile.txt:5:a24234234
 MyFile.txt:f242
 MyFile.txt:21:g
